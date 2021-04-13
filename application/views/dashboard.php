@@ -978,6 +978,17 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
+								<label>Number</label>
+								<input name="Number" type="text" class="form-control" placeholder="Number" required>
+								<div class="invalid-feedback">
+									Please provide a valid Address.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
 								<label>Address</label>
 								<input name="Address" type="text" class="form-control" placeholder="Address" required>
 								<div class="invalid-feedback">
@@ -1072,7 +1083,7 @@
 							<div class="form-group">
 
 								<input type="file" id="actual-btn" hidden class="form-control" name ="photoUser" aria-describedby="inputGroupFileAddon03" aria-label="Upload" accept="image/*">
-								<label for="actual-btn" class="btn btn-primary"><i class="fa fa-save"></i>&nbsp;Choose File</label>
+								<label for="actual-btn" class="btn btn-primary"><i class="fa fa-save"></i>&nbsp;&nbsp;Choose File</label>
 								<!-- <button for="actual-btn" class="btn btn-primary" type="button" >Save &nbsp<i class="fa fa-save"></i></button> -->
 								<!-- name of file chosen -->
 								<span id="file-chosen">No file chosen</span>

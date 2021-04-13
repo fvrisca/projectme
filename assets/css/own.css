@@ -1,0 +1,40 @@
+/* table {
+	background-color: black;
+	border-collapse: separate;
+	border-spacing: 0;
+	overflow: hidden;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+} */
+
+.dataTables_paginate {
+	/* background-color: #b9b9b9; */
+	border-radius: 90px;
+	margin-top: 10px;
+
+}
+
+
+a#example_previous {
+	/* background-color: #ff0000; */
+	border-radius: 90px;
+
+}
+
+a#example_next {
+	/* background-color: #ff00c8; */
+	border-radius: 90px;
+
+}
+
+.paginate_button {
+	background-color: #ff00c8;
+	border-radius: 90px;
+
+}
+
+span.a.paginate_button.current {
+	background-color: #ff0000;
+	border-radius: 90px;
+
+}

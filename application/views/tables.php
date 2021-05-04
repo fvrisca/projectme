@@ -23,7 +23,6 @@
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
 	<!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"> -->
     <link id="pagestyle" rel="stylesheet" type="text/css" href="<?= base_url('assets/css/tables.css') ?>">
-	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 
 </head>
 
@@ -117,6 +116,8 @@
 			</tbody>
 		</table>
 	</div>
+
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 
 	<script>
 		$(document).ready(function () {

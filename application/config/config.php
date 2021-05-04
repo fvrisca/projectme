@@ -23,9 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-// $config['base_url'] = 'http://localhost/codeigniter/SmartHome/';
+$config['base_url'] = 'http://localhost/CODEIGNITER/CLIENT/JGU-IMAN-NURJAMAN/SmartHome/';
 // $config['base_url'] = 'http://192.168.43.136/codeigniter/SmartHome/';
-$config['base_url'] = 'https://smarthome76.herokuapp.com/';
+// $config['base_url'] = 'https://smarthome76.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
